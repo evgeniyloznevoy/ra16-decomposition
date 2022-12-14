@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+.App-Header {
+  margin-top: 2rem;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AppHeader-Content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.NavHeader-Container {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Nav-Header {
+  margin-left: 14rem;
+}
+
+.News-List {
+  margin-top:  20px;
+}
+
+.News-Item {
+  margin-left: 10rem;
+  list-style-type: none;
+}
+
+.News-Item_Link {
+  margin-left: 2rem;
+  text-decoration: none;
+  color:black;
+}
+
+
+.Exchange-List {
+  margin-left: 12rem;
+  display: flex;
+}
+
+.Exchange-Item {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.Exchange-Item-Name, .Exchange-Item-Value {
+  margin-right: 5px;
+  font-weight: 700;
+}
+
+
+.AppHeader-Commercial {
+  margin:auto auto auto 5rem;
+}
+
+.Advertising {
+  display: flex;
+  flex-direction: column;
+}
+
+.Advertising-Image {
+max-width: 70px;
+}
+
+.App-Main {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Nav-Main {
+  margin-left: 4rem;
+}
+
+.Search-Form {
+display: flex;
+}
+
+.Search-Logo {
+  max-width: 40px;
+}
+
+.Search-Input {
+  max-width: 50%;
+  margin-left: 2rem;
+}
+
+.Search-Button {
+  margin-left: 2rem;
+}
+
+.Examples {
+  display: flex;
+  margin-left: 5rem;
+}
+
+.advertising-banner {
+  max-width: 50%;
+  height: 2rem
+} 
+
+.WidgetsList {
+  margin-top: 2rem;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  max-width: 1024px; 
+}
+
+.widget {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.widget-visited div, .widget-tvProgramm div, .widget-onAir div {
+  display: flex;
+}
+
+.weather-info {
+  display: flex;
+}
+
+.weather-current {
+  font-weight: bolder;
+}
+
+.weather-forecast {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
 }
